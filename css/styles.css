@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    flex: 1;
+
+}
+
+.control{
+    display: grid;
+    grid-template-areas: 
+        "a a" 
+        "b c" 
+        "d d";
+    position: fixed;
+    width: 400px;
+    height: 200px;
+    bottom: 0;
+    margin-bottom: 25px;
+}
+
+#score{
+    margin-right: 20px;
+}
